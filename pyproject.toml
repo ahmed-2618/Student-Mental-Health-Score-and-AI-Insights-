@@ -1,0 +1,17 @@
+[project]
+name = "student-mental-health-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pandas",
+    "joblib",
+    "scikit-learn",
+    "groq"
+]
+
+[tool.poetry]
+package-mode = false

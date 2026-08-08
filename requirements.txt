@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pandas
+joblib
+scikit-learn
+groq
+python-dotenv
